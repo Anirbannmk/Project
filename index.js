@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 4565;
 const collection = require('./config.js');
 
-const pythonShell = new PythonShell('app.py');
+// const pythonShell = new PythonShell('app.py');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
